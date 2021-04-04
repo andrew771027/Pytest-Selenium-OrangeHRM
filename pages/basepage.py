@@ -40,7 +40,7 @@ class BasePage:
         try:
 
             element = self.get_elements(locator=locator)
-            self.driver.click(element)
+            element.click()
             
         except Exception as e:
             LOGGER.error(f"Can not click element {locator}.")
@@ -51,7 +51,7 @@ class BasePage:
 
         self.delete_text(locator=locator)
         element = self.get_elements(locator=locator)
-        element.send_keys(text=text)
+        element.send_keys(text)
         
     def delete_text(self, locator) -> None:
 

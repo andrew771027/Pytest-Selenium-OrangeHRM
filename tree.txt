@@ -1,0 +1,23 @@
+.
+├── drivers
+│   ├── __init__.py
+│   ├── chrome.py
+│   ├── firefox.py
+│   └── webdriverfactory.py
+├── locators
+│   ├── __init__.py
+│   └── loginlocators.py
+├── pages
+│   ├── __init__.py
+│   ├── basepage.py
+│   └── loginpage.py
+├── pytest.ini
+├── readme.md
+├── requirements.txt
+├── setup.sh
+├── tests
+│   ├── __init__.py
+│   └── test_auth.py
+└── tree.txt
+
+4 directories, 16 files
